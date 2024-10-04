@@ -1,0 +1,159 @@
+
+.nav-link ,a:link,a:visited
+{
+     color:white;
+     font-weight:600;
+}
+.din
+{ 
+    text-transform:capitalize;
+     font-weight: 600;
+     font-family: monotype corsiva;
+}
+.txt
+{
+    color:orangered;
+}
+.bookbtn
+{
+     color: white;
+     font-size: 25px;
+     padding:5px;
+     font-weight :500px;
+     border:2px solid orangered;
+     background-color: orangered;
+}
+.bookbtn:hover
+{
+ background-color: transparent;
+ border-bottom: 5px solid orangered;     
+}
+
+#fd1
+{
+     height:100px;
+     width: 50px;
+     border: 2px solid white;
+     border-radius:50px;
+     margin: auto;
+     margin-top: 50px;
+}
+.fd2
+{
+     height:20px;
+     width: 20px;
+     border: 2px solid white;
+     border-radius:50%;
+     margin:auto;
+     margin-top:5px;
+     animation: anim 3s infinite;
+     position: relative;  
+}       
+@keyframes anim {
+     from
+     {
+          top:0px;opacity : 0.5;
+     }
+     to
+     {
+           top:40px;opacity:0;
+     }     
+}
+.menuitem
+{
+      height: 200px;
+      width: 200px;
+      margin:auto;
+      padding:30px;
+      border: 3px solid whitesmoke;
+      display: none;
+}
+.hide:hover.menuitem{
+      display: block;
+}
+.nav-pills>li.nav-item>.nav-link
+{
+     color:black;
+     width: 45.9vh;
+     /* background-color: white; */
+}
+.nav-pills>li.nav-item>.nav-link:focus
+{
+      background-color:orangered;
+      color: white;
+}
+.team:hover
+{
+      background-color: orangered;
+      color: white;
+}
+.backimg
+{
+     background-image:url(./images/blog_bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.purchasebtn {
+     background-color: orangered;
+     color: white;
+     font-weight: 600;
+     border: orangered solid 3px;
+     font-size: 25px;
+ }
+ 
+ .purchasebtn:hover {
+     background-color: transparent;
+     color: black;
+ }
+ 
+ #scrollspyHeading7 .card:hover {
+     box-shadow: 10px, 10px, 10px lightgray;
+     transform: scale(1.02, 1.02);
+     transition: 1s;
+     border: 2px solid orangered;
+ }
+ 
+ input[type="text"],
+ input[type="email"],
+ input[type="contact no"],
+ input[type="date"],
+ input[type="time"] {
+     height: 50px;
+     background-color: lightgray;
+     border: 2px dotted lightgray;
+ }
+ select
+ {
+     height: 50px;
+     background-color: lightgrey;
+     border: 2px dotted lightgrey;
+     width: 500px;
+     border-radius: 5px;
+ }
+ .backimg1
+{
+     background-image:url(./images/newsletter-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+
+.backimg2
+{
+     background-image:url(./images/footer_background.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.footerdiv
+{
+     background-color:orangered ;
+     color:white;
+     padding: 5px;
+     text-align: center;
+     border-top:white 2px dotted;
+}
